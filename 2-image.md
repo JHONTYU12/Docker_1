@@ -31,8 +31,9 @@ Una imagen puede tener la etiqueta latest para representar la última versión, 
 docker pull <nombre imagen>:<tag>
 ```
 
-Descargar la imagen **hello-world
-1: Sin tag**
+Descargar la imagen **hello-world**.
+
+**1: Sin tag**
 ```
 docker pull hello-world**
 ```
