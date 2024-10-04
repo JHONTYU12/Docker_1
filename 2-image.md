@@ -14,8 +14,6 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 - Primero creas la imagen (en maquina o en DockerHub)
 - Al usar la imagen Docker lo convierte en un contenedor
 
-# COMPLETAR 
-
 ![Imagen y contenedores](img/imagenContenedores.JPG)
 ## Comandos para imágenes
 
