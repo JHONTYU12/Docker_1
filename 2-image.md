@@ -4,6 +4,16 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
+### IMAGEN
+- Es el molde que contiene todo lo que necesita una aplicacion para ejecutarse
+- No se puede cambiar una vez que fue creado
+### CONTENEDOR
+- Instancia de una imagen que esta en ejecuccion
+- Se puede realizar cambios pero si no se guarda en *Volumenes* al momento de borrar se pierde
+### RELACION DE AMBOS
+- Primero creas la imagen (en maquina o en DockerHub)
+- Al usar la imagen Docker lo convierte en un contenedor
+
 # COMPLETAR 
 
 ![Imagen y contenedores](img/imagenContenedores.JPG)
