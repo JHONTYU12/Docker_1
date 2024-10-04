@@ -62,6 +62,7 @@ docker images
 ```
 ## Screen de resultados
 Imagen de resultados:
+
 ![Screen de Listas de imagenes](img/ScreenImagenList.png)
 
 **Identificadores**
