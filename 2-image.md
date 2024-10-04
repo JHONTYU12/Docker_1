@@ -9,7 +9,7 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 - No se puede cambiar una vez que fue creado
 ### CONTENEDOR
 - Instancia de una imagen que esta en ejecuccion
-- Se puede realizar cambios pero si no se guarda en *Volumenes* al momento de borrar se pierde
+- Se puede realizar cambios pero si no se guarda en **Volumenes** al momento de borrar se pierde
 ### RELACION DE AMBOS
 - Primero creas la imagen (en maquina o en DockerHub)
 - Al usar la imagen Docker lo convierte en un contenedor
@@ -32,16 +32,30 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
-# COMPLETAR
+**1: Sin tag
+```
+docker pull hello-world**
+```
+**2: Con tag** (Ultima version)
+```
+**docker pull hello-world:latest**
+```
 
 **¿Qué es nginx**
-# COMPLETAR 
+
+NGINX es un servidor web de código abierto que mejora la eficiencia de los sitios web al:
+
+- **Servir Contenido Web:** Entrega páginas, imágenes y archivos a los visitantes.
+- **Manejar Tráfico:** Organiza múltiples solicitudes simultáneas para evitar tiempos de espera.
+- **Actuar como Proxy Inverso:** Redirige solicitudes a diferentes servidores donde se encuentran los componentes del sitio.
+- **Equilibrar Carga:** Distribuye las solicitudes entre varios servidores para mantener el rendimiento durante picos de tráfico.
+- **Ser Rápido y Eficiente:** Diseñado para manejar muchas conexiones al mismo tiempo sin volverse lento.
 
 Descargar la imagen  **nginx** en la versión **alpine**
-# COMPLETAR
-
+```
+**docker pull nginx:alpine**
+```
 ### Listar imágenes
-
 ```
 docker images
 ```
