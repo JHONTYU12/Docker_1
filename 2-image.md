@@ -60,8 +60,9 @@ docker pull nginx:alpine
 ```
 docker images
 ```
-
-# COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+## Screen de resultados
+Imagen de resultados:
+![Screen de Listas de imagenes](img/ScreenImagenList.png)
 
 **Identificadores**
 
