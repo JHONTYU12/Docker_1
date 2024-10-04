@@ -54,7 +54,7 @@ NGINX es un servidor web de código abierto que mejora la eficiencia de los siti
 
 Descargar la imagen  **nginx** en la versión **alpine**
 ```
-**docker pull nginx:alpine**
+docker pull nginx:alpine
 ```
 ### Listar imágenes
 ```
