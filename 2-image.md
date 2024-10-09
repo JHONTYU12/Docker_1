@@ -82,7 +82,7 @@ Inspeccionar la imagen hello-world
 
 ### **¿Con qué algoritmo se está generando el ID de la imagen**
 
-SHA-256 es como una huella digital única para cualquier archivo o contenido. Docker usa SHA-256 para crear un ID único para cada imagen que contiene sus archivos y configuraciones. Si dos imágenes tienen el mismo contenido exacto, tendrán la misma "huella digital" o ID. Es decir, el ID de una imagen depende del contenido, y si cambias algo dentro de la imagen, el ID cambia porque la "huella" ya no es igual.
+**SHA-255** es como una huella digital única para cualquier archivo o contenido. Docker usa SHA-256 para crear un ID único para cada imagen que contiene sus archivos y configuraciones. Si dos imágenes tienen el mismo contenido exacto, tendrán la misma "huella digital" o ID. Es decir, el ID de una imagen depende del contenido, y si cambias algo dentro de la imagen, el ID cambia porque la "huella" ya no es igual.
 
 ### Filtrar imágenes
 
@@ -98,8 +98,9 @@ Eliminar permanentemente la imagen de tu sistema Docker.
 docker rmi <nombre imagen>:<tag>
 ```
 
-Eliminar la imagen hello-world 
-# COMPLETAR
+### Eliminar la imagen hello-world 
+
+![Screen de ELiminacion](img/EliminarHello.png)
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
 Cuando eliminas una imagen Docker, Docker no elimina automáticamente los contenedores que se han creado a partir de esa imagen. Esto significa que, aunque hayas eliminado la imagen, el contenedor seguirá ejecutándose normalmente.  
