@@ -78,9 +78,9 @@ docker inspect <nombre imagen>:<tag>
 ```
 
 Inspeccionar la imagen hello-world 
-![Screen de Inspeccinoar](img/InspeccionarImages.png)
+![Screen de Inspeccinoar](img/InspeccionarIMages.png)
 
-**¿Con qué algoritmo se está generando el ID de la imagen**
+### **¿Con qué algoritmo se está generando el ID de la imagen**
 
 SHA-256 es como una huella digital única para cualquier archivo o contenido. Docker usa SHA-256 para crear un ID único para cada imagen que contiene sus archivos y configuraciones. Si dos imágenes tienen el mismo contenido exacto, tendrán la misma "huella digital" o ID. Es decir, el ID de una imagen depende del contenido, y si cambias algo dentro de la imagen, el ID cambia porque la "huella" ya no es igual.
 
