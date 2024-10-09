@@ -78,7 +78,7 @@ docker inspect <nombre imagen>:<tag>
 ```
 
 Inspeccionar la imagen hello-world 
-![Screen de Inspeccinoar](img/InspeccionarIMages.png)
+![Screen de Inspeccionar](img/InspeccionarIMagen.png)
 
 ### **¿Con qué algoritmo se está generando el ID de la imagen**
 
